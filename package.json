@@ -1,0 +1,20 @@
+{
+  "name": "portafolio-landing",
+  "version": "1.0.0",
+  "description": "Landing page profesional con React y Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["portfolio", "react", "nodejs", "landing-page"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+} 
