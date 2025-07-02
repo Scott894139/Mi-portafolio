@@ -77,7 +77,7 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       name: 'Email',
-      url: 'mailto:tu-email@gmail.com',
+      url: 'mailto:sabenavidess@gmail.com',
       color: '#EA4335'
     }
   ];

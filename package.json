@@ -11,6 +11,9 @@
     "start": "cd server && npm start",
     "install-all": "npm install && cd client && npm install && cd ../server && npm install"
   },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   },
